@@ -1,0 +1,33 @@
+ul {
+  background-color: pink;
+  display: flex;
+  justify-content: space-evenly;
+  }
+
+a {
+  text-decoration: none;
+  color:red;
+  }
+
+li {
+  list-style-type: none;
+  display: inline;
+  }
+
+.inner {
+  height:100px;
+  width:100px;
+  background-color: blue;
+  align-self:flex-start
+  /* always have higher priority of align-self property*/
+  }
+
+.outer {
+  height: 400px;
+  width: 400px;
+  background-color: cyan;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  }
+
